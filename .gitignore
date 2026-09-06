@@ -15,3 +15,25 @@ env/
 
 # Environment variables
 .env
+
+# Data files
+*.npz
+*.h5
+*.parquet
+data/raw/
+data/processed/
+
+# Large datasets
+02_ml_from_scratch/2_layer_classifier/mnist_data.npz
+02_ml_from_scratch/gradient_descent/train.csv
+02_ml_from_scratch/gradient_descent/test.csv
+02_ml_from_scratch/gradient_descent/submission.csv
+03_classical_ml/logistic_regression/neo.csv
+03_classical_ml/regression/HousePricePrediction.xlsx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
