@@ -22,4 +22,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt pytest
       - name: Run tests
-        run: pytest 01_ml_from_scratch -q
+        run: pytest 02_ml_from_scratch -q
